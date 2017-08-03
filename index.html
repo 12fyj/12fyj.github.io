@@ -1,1 +1,79 @@
-个人首页1234
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:1000px;
+            height:200px;
+            border:1px solid #bbb;
+            margin-bottom:50px;
+        }
+        .box-1{
+            perspective:600px;
+        }
+        .darkred{
+            width:200px;
+            height:200px;
+            background:darkred;
+            opacity:0.7;
+            transform:rotatey(45deg);
+            display:inline-block;
+        }
+        .pink{
+            width:200px;
+            height:200px;
+            background:pink;
+            opacity:0.7;
+            transform:rotatey(45deg);
+            display:inline-block;
+        }
+        .black{
+            width:200px;
+            height:200px;
+            background:black;
+            opacity:0.7;
+            transform:rotatey(45deg);
+            display:inline-block;
+        }
+        .yellow{
+            width:200px;
+            height:200px;
+            background:yellow;
+            opacity:0.7;
+            transform:rotatey(45deg);
+            display:inline-block;
+        }
+        .darkblue{
+            width:200px;
+            height:200px;
+            background:darkblue;
+            opacity:0.7;
+            transform: perspective(600px) rotatey(45deg) translate(10px);
+            display:inline-block;
+        }
+        .green{
+            width:200px;
+            height:200px;
+            background:green;
+            opacity:0.7;
+            transform: perspective(600px) rotatey(45deg);
+            display:inline-block;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box box-1 ">
+    <div class="darkred"></div>
+    <div class="pink"></div>
+    <div class="black"></div>
+    <div class="yellow"></div>
+</div>
+<div class="box box-2">
+    <div class="darkblue"></div>
+    <div class="green"></div>
+</div>
+</body>
+</html>
